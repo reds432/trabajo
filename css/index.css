@@ -1,0 +1,109 @@
+body{
+    background-color:  whitesmoke;
+
+}
+:root{
+    --color_primario:red;
+    --color_secundario:green;
+    --
+
+}
+html{
+    font-size: 20px;
+}
+.header{
+    border: 1px solid rgb(0, 0, 0);
+    
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    border: 1px solid rebeccapurple;
+    
+    
+}
+.footer{
+    border: 1px solid blue;
+    height: 10vh;
+}
+.border{
+    border: 1px solid gray;
+}
+.background{
+    background-color: orangered;
+}
+.menuprincipal{
+    width: 40%;
+}
+.menu1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item{
+    list-style: none;
+}
+.form{
+    width: 40%;
+    margin: auto;
+    border: 1px solid green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.Images{
+    width: 50%;
+    margin: auto;
+    border: 1px solid red;
+}
+.title{
+    max-width: 100%;
+    min-width: 20%;
+}
+.border{
+    border: 2px solid blue;
+    border-top: 2px solid red;
+    border-right: 3px double orange;
+    border-bottom: 5px dotted tomato;
+    border-left: 3px dashed yellow;
+}
+.border-p{
+    border: 2px solid green;
+    border-radius: 5px 50px 20px 80px;
+}
+.shadow{
+    border: 2px green;
+    box-shadow: 15px 15px 20px 2px black,
+    25px 25px 10px 2px purple,
+    35px 35px 10px 2px khaki;
+}
+.shadow{
+    text-shadow: 3px 3px 0px greenyellow,
+    5px 3px 0px rgb(125, 251, 255),
+    7px 3px 0px rgb(25, 19, 107);
+}
+body{
+    background-image: url('/img/juan.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.medidas{
+    color: cadetblue;
+    width: 60%;
+    margin: auto;
+    border: 1px solid red;
+    font-size: 2rem;
+}
+a:hover{
+    font-size: 20px;
+    color: brown;
+    background-color: blue;
+}
+a:visited{
+    color: var(--color_primario);
+    width: var();
+}

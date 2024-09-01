@@ -1,0 +1,75 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+  border-bottom: 1px solid #444;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+.form-control {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #23527c;
+}
+
+.shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.animate {
+  animation: fade-in 0.5s ease;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Agregamos la imagen de fondo predeterminada */
+.bg-image {
+  background-image: url('https://picsum.photos/2000/1000');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}

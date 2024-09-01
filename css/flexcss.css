@@ -1,0 +1,33 @@
+body{
+    background-color: whitesmoke;
+}
+.border{
+    border: 1px solid black;
+}
+.estilo{
+    border: 1px solid red;
+    background-color: cadetblue;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item1{
+    order: 0;
+    flex-grow: 2;
+    align-self: flex-start;
+}
+.item2{
+    order: 1;
+}
+.item3{
+    order: 2;
+    flex-grow: 3;
+    align-self: flex-end;
+}
+.item4{
+    order: 4;
+    flex-shrink: 4;
+}

@@ -1,0 +1,164 @@
+body {
+    background-color: rgb(242, 242, 242);
+
+}
+.borde{
+    align-items: center;
+    background-color:  rgb(102, 33, 250);
+
+}
+.img{
+    width: 90%;
+    margin: auto;
+    border: 1px solid rgb(255, 0, 0);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 2vh;
+    background-color: rgb(20, 75, 121);
+    font-size: 20px;
+}
+.main-content{
+    padding: 10vh;
+    background-color: rgb(195, 250, 177);
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+.footer{
+    padding: 20px;
+    background-color: rgb(17, 57, 91);
+    text-align: center;
+    display: flex;
+}
+.footer-social{
+    padding: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width: 300px) {
+    body{
+        background-color:rgb(174, 0, 255);
+    }
+
+    .logo{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .nombre{
+        width: 100%;
+    }
+
+    .menu{
+        width: 100%;
+    }
+
+    .registro{
+        width: 100%;
+    }
+    .buscar{
+        width: 100%;
+        display: none;
+    }
+
+}
+@media screen and (min-width: 301px) and (max-width:600px) {
+    body{
+        background-color: rgb(8, 0, 253);
+    }
+    .logo{
+        width: 50%;
+    }
+
+    .nombre{
+        width: 100%;
+    }
+
+    .menu{
+        width: 100%;
+    }
+
+    .registro{
+        width: 50%;
+    }
+    .buscar{
+        width: 50%;
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width:900px) {
+    body {
+        background-color: rgb(218, 97, 97);
+    }
+    .logo{
+        width: 30%;
+    }
+
+    .nombre{
+        width: 40%;
+    }
+
+    .menu{
+        width: 30%;
+    }
+
+    .registro{
+        width: 50%;
+    }
+    .buscar{
+        width: 50%;
+    }
+
+}
+@media screen and (min-width: 901px) and (max-width:1200px) {
+    body {
+        background-color:rgb(238, 193, 130);
+    }
+    .logo{
+        width: 30%;
+    }
+
+    .nombre{
+        width: 30%;
+    }
+
+    .menu{
+        width: 30%;
+    }
+
+    .registro{
+        width: 10%;
+    }
+    .buscar{
+        width: 100%;
+    }
+
+}
+@media screen and (min-width:1200px) {
+    body {
+        background-color: green;
+    }
+    .logo{
+        width: 10%;
+    }
+
+    .nombre{
+        width: 20%;
+    }
+
+    .menu{
+        width: 40%;
+    }
+
+    .registro{
+        width: 20%;
+    }
+    .buscar{
+        width: 10%;
+    }
+
+}
